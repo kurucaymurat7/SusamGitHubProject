@@ -37,4 +37,9 @@ public class tests extends TestBase {
         WebElement fullPledgedPractice = driver.findElement(By.xpath("(//h2)[1]"));
         Assert.assertTrue(fullPledgedPractice.isDisplayed());
     }
+
+    @Test
+    public void automationExerciseCase_(){
+        System.out.println("sena");
+    }
 }
